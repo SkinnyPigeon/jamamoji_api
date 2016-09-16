@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  icon: MyString
+  food: 1
+  energy: 1
+  waste: 1
+  alive: false
+  ill: false
+  happy: false
+  hungry: false
+  damage: 1
+  health: 1
+  special: 1
+  opponent_bonus: 1
+  block: 1
+  opponent_special: 1
+
+two:
+  name: MyString
+  icon: MyString
+  food: 1
+  energy: 1
+  waste: 1
+  alive: false
+  ill: false
+  happy: false
+  hungry: false
+  damage: 1
+  health: 1
+  special: 1
+  opponent_bonus: 1
+  block: 1
+  opponent_special: 1
