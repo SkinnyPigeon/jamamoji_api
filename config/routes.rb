@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   devise_for :users, :controllers => { sessions: 'sessions', registrations: 'registrations' }
   resources :users
 
+
   scope path: "api" do
     resources :jamamojis, defaults: {format: :json}
   end
