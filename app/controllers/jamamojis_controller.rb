@@ -7,4 +7,5 @@ class JamamojisController < ApplicationController
     render :json => jamamojis.to_json()
   end
 
+
 end
