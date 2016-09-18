@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160918153525) do
+ActiveRecord::Schema.define(version: 20160918214814) do
 
   create_table "jamamojis", force: :cascade do |t|
     t.string   "name"
@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 20160918153525) do
     t.datetime "updated_at",       null: false
     t.integer  "user_id"
     t.integer  "level"
+    t.integer  "happy_count"
   end
 
   add_index "jamamojis", ["user_id"], name: "index_jamamojis_on_user_id"
