@@ -21,6 +21,8 @@ class JamamojisController < ApplicationController
     end
   end
 
+
+
   private
   def jamamoji_params
     params.require(:jamamoji).permit([:icon, :name, :food, :energy, :waste, :alive, :ill, :happy, :hungry, :damage, :health, :special, :opponent_bonus, :block, :opponent_special, :level, :happy_count ])
