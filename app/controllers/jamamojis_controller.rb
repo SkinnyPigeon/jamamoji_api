@@ -21,6 +21,10 @@ class JamamojisController < ApplicationController
     end
   end
 
+  def create
+    jamamoji = 
+  end
+
 
 
   private
